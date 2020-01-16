@@ -9,8 +9,8 @@ Steps to run after these are set up: (Assuming a Linux or Mac terminal. Windows 
 
 ##### 1. Clone files and cd to directory:
 ```
-git@github.com/Shoaib-Alauudin/File-Upload-App.git
-cd File-Upload-App
+https://github.com/Shoaib-Alauudin/Flask-File-Upload-App.git
+cd Flask-File-Upload-App
 ```
 ##### 2. Install the requirements
 
