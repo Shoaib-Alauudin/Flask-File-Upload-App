@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import render_template, flash, request, redirect, url_for, jsonify
+from flask import render_template, request, redirect, url_for, jsonify
 from werkzeug import secure_filename
 from . import app_run
 from Connection import Connection
@@ -84,7 +84,6 @@ def upload_file():
             return redirect(url_for("db_to_html",
                                     filename=filename))
     return render_template("file_upload.html")
-
 
 
 def allowed_file(filename):
